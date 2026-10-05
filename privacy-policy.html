@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy – Time2WashWindget</title>
+  <style>
+    /* Colors as variables; dark theme follows the visitor's system setting */
+    :root {
+      --bg: #ffffff;
+      --text: #1b2430;
+      --muted: #5b6776;
+      --link: #0b63c5;
+      --rule: #e3e8ee;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #12181f;
+        --text: #e6ebf1;
+        --muted: #9aa7b5;
+        --link: #6cb2ff;
+        --rule: #263140;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    html { -webkit-text-size-adjust: 100%; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 1rem;
+      line-height: 1.65;
+    }
+
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      line-height: 1.2;
+      margin: 0 0 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      line-height: 1.3;
+      margin: 2.25rem 0 0.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    p, ul { margin: 0 0 1rem; }
+
+    ul { padding-left: 1.4rem; }
+    li { margin-bottom: 0.4rem; }
+
+    .updated { color: var(--muted); margin-bottom: 1.5rem; }
+
+    a { color: var(--link); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy policy</h1>
+
+    <p class="updated">Last updated: {date}</p>
+
+    <p>{developer} ("we") makes Time2WashWindget ("the app"). This policy explains what data the app uses.</p>
+
+    <h2>Short version</h2>
+
+    <p>We do not collect, store or share personal data. The app has no accounts, no ads and no analytics or tracking tools. We run no servers.</p>
+
+    <h2>What the app does with data</h2>
+
+    <p>To show prices, the app connects directly from your phone to two public services:</p>
+
+    <ul>
+      <li><a href="https://stromligning.dk">Strømligning (stromligning.dk)</a>, for electricity prices that include grid tariffs and taxes.</li>
+      <li><a href="https://energidataservice.dk">Energi Data Service (energidataservice.dk)</a>, as a fallback for spot prices.</li>
+    </ul>
+
+    <p>These requests contain the app name and version, and a set of geographic coordinates that the app uses to find the grid company for the tariffs. In this version the coordinates are set inside the app. The app does not read your phone's location, and it does not ask for any location permission.</p>
+
+    <p>Like any internet connection, your IP address is visible to these services. We do not receive it or store it. How these services handle it is described in their own privacy policies.</p>
+
+    <h2>What is stored on your phone</h2>
+
+    <p>The app stores only the grid company that it found for the coordinates, so it does not have to ask again. This stays on your device. It is removed when you uninstall the app or clear its data.</p>
+
+    <h2>Permissions</h2>
+
+    <p>The app asks for one permission: Internet access, to download prices.</p>
+
+    <h2>Sharing</h2>
+
+    <p>We do not sell, share or give personal data to anyone, because we do not collect any.</p>
+
+    <h2>Children</h2>
+
+    <p>The app is not directed at children and does not knowingly collect any information from them.</p>
+
+    <h2>Changes</h2>
+
+    <p>If this policy changes, the date above will be updated.</p>
+
+    <h2>Contact</h2>
+
+    <p>Questions about privacy: Pesenka.labs@gmail.com</p>
+
+    <p>Online version of this policy: TBD!!!!!!!!</p>
+  </main>
+</body>
+</html>
