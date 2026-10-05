@@ -1,2 +1,2 @@
 # Time2WashWidget
-Widget that shows electricity prices and suggests when to start your washing machine
+A simple widget that shows current electricity prices and suggests the best time to start your washing machine, helping you save money on your energy bill.
